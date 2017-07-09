@@ -1,5 +1,6 @@
 package io.github.yhdesai.chatbot;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -16,6 +17,10 @@ public class Intent_List extends AppCompatActivity {
 
     }
 
+    public void call(View view) {
+        Intent intent = new Intent(Intent_List.this, Intent_List.class);
+        startActivity(intent);
+    }
 
 
 

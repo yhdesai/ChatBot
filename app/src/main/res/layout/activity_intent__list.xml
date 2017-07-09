@@ -10,7 +10,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Intent 1"/>
+        android:text="Call"
+        android:onClick="call"/>
 
 
 </LinearLayout>
