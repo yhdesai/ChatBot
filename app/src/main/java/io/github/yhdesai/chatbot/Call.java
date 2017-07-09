@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.
 
 public class Call extends AppCompatActivity {
 
@@ -17,7 +16,8 @@ public class Call extends AppCompatActivity {
 
 
     public void call(View view) {
-        Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("+91" + "8484923472"));
+        String phone = "@string/Phone_Number";
+        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
         startActivity(intent);
     }
 
