@@ -10,8 +10,26 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Call"
-        android:onClick="callActivity"/>
+        android:onClick="callActivity"
+        android:text="Call" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Alarm"
+        android:text="Set Alarm" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="song"
+        android:text="Play Songs" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="TOI"
+        android:text="News" />
 
 
 </LinearLayout>
