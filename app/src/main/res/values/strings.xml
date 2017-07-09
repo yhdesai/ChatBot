@@ -2,4 +2,6 @@
     <string name="app_name">ChatBot</string>
     <string name="title_activity_intent__list">Intent_List</string>
     <string name="action_settings">Settings</string>
+    <string name="Phone_Number"></string>
+    <string name="Phone_Code">+91</string>
 </resources>

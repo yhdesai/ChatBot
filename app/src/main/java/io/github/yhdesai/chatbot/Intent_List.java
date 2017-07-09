@@ -17,8 +17,8 @@ public class Intent_List extends AppCompatActivity {
 
     }
 
-    public void call(View view) {
-        Intent intent = new Intent(Intent_List.this, Intent_List.class);
+    public void callActivity(View view) {
+        Intent intent = new Intent(Intent_List.this, Call.class);
         startActivity(intent);
     }
 
