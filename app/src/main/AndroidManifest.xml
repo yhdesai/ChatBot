@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.github.yhdesai.chatbot">
+
     <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,7 +22,9 @@
             android:name=".Intent_List"
             android:label="@string/title_activity_intent__list"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Call"></activity>
+        <activity android:name=".Call" />
+        <activity android:name=".browser_list" />
+        <activity android:name=".webview_activity"></activity>
     </application>
 
 </manifest>
