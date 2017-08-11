@@ -20,6 +20,12 @@ public class Intent_List extends AppCompatActivity {
     }
 
 
+    public void browser(View view) {
+        Intent intent = new Intent(Intent_List.this, browser_list.class);
+        startActivity(intent);
+    }
+
+
 
 
 
